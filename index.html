@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css" rel="stylesheet" />
+    <link rel="icon" type="image/x-icon" href="img/subdo.png" />
+  </head>
+  <body class="bg-slate-900">
+    <!-- 
+ _   _                         _             _      _    
+| \ | |                       (_)           | |    | |   
+|  \| | __ _  __ _ _ __   __ _ _ _ __     __| | ___| | __
+| . ` |/ _` |/ _` | '_ \ / _` | | '_ \   / _` |/ _ \ |/ /
+| |\  | (_| | (_| | |_) | (_| | | | | | | (_| |  __/   < 
+|_| \_|\__, |\__,_| .__/ \__,_|_|_| |_|  \__,_|\___|_|\_\
+        __/ |     | |                                    
+       |___/      |_|                                    
+ -->
+    <div class="w-screen flex justify-center m-auto overflow-auto mt-4">
+      <div id="card" class="bg-slate-900 rounded-xl border border-gray-600 m-4 w-96">
+        <!-- <div class="flex place-content-end w-12"><img src="w.png" /></div> -->
+        <p class="font-bold text-4xl text-red-600 pl-4">. <span class="text-yellow-400">.</span> <span class="text-green-500">.</span></p>
+        <hr class="border-gray-600 mt-4" />
+        <div class="tabs-group">
+          <div class="tabs-container">
+            <div class="tabs">
+              <p class="text-gray-300 font-medium flex items-center">
+                <svg aria-hidden="true" class="mr-2 w-5 h-5 text-gray-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd" d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-6-3a2 2 0 11-4 0 2 2 0 014 0zm-2 4a5 5 0 00-4.546 2.916A5.986 5.986 0 0010 16a5.986 5.986 0 004.546-2.084A5 5 0 0010 11z" clip-rule="evenodd"></path></svg
+                >Profile
+              </p>
+            </div>
+            <div class="tabs">
+              <p class="text-gray-300 font-medium flex items-center">
+                <svg aria-hidden="true" class="mr-2 w-5 h-5 text-blue-600 dark:text-gray-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    d="M5 3a2 2 0 00-2 2v2a2 2 0 002 2h2a2 2 0 002-2V5a2 2 0 00-2-2H5zM5 11a2 2 0 00-2 2v2a2 2 0 002 2h2a2 2 0 002-2v-2a2 2 0 00-2-2H5zM11 5a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2h-2a2 2 0 01-2-2V5zM11 13a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2h-2a2 2 0 01-2-2v-2z"
+                  ></path></svg
+                >Tools
+              </p>
+            </div>
+            <div class="tabs">
+              <p class="text-gray-300 font-medium flex items-center">
+                <svg aria-hidden="true" class="mr-2 w-5 h-5 text-gray-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M9 2a1 1 0 000 2h2a1 1 0 100-2H9z"></path>
+                  <path
+                    fill-rule="evenodd"
+                    d="M4 5a2 2 0 012-2 3 3 0 003 3h2a3 3 0 003-3 2 2 0 012 2v11a2 2 0 01-2 2H6a2 2 0 01-2-2V5zm3 4a1 1 0 000 2h.01a1 1 0 100-2H7zm3 0a1 1 0 000 2h3a1 1 0 100-2h-3zm-3 4a1 1 0 100 2h.01a1 1 0 100-2H7zm3 0a1 1 0 100 2h3a1 1 0 100-2h-3z"
+                    clip-rule="evenodd"
+                  ></path></svg
+                >Contacts
+              </p>
+            </div>
+            <div class="indicator"></div>
+          </div>
+
+          <!-- profile  -->
+          <div class="tab-content">
+            <div class="tab-content-item p-4">
+              <h3 class="text-white font-light text-sm mt-4">Hello I'am</h3>
+              <h3 class="text-white font-bold text-2xl">Yanuar Eka Susila</h3>
+              <p class="text-gray-400 font-md text-sm pt-2">I'am Yanuar Eka Susila, a bachelor of informatics engineering student.</p>
+              <div class="w-full max-w-sm bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700 mt-6">
+                <div class="font-bold text-4xl flex place-content-end">
+                  <span class="text-gray-300 hover:text-red-500 pr-2">.</span><span class="text-gray-400 hover:text-yellow-500 pr-2">.</span><span class="text-gray-500 hover:text-green-500 pr-4">.</span>
+                </div>
+
+                <div class="flex flex-col items-center pb-6 pt-6">
+                  <img class="mb-3 w-16 h-16 rounded-full shadow-lg" src="https://avatars.githubusercontent.com/u/70012525?v=4" alt="Bonnie image" />
+                  <h5 class="mb-1 text-xl font-medium text-gray-900 dark:text-white">Yanuar Eka</h5>
+                  <span class="text-sm font-light text-gray-500 dark:text-gray-400">Students</span>
+                  <div class="flex mt-4 space-x-5 md:mt-6">
+                    <a href="#" class="text-gray-400 text-3xl hover:text-blue-500"><i class="bx bxl-github"></i></a>
+                    <a href="" class="text-gray-400 text-3xl hover:text-blue-500"><i class="bx bxl-linkedin"></i></a>
+                    <a href="" class="text-gray-400 text-3xl hover:text-blue-500"><i class="bx bxl-facebook-circle"></i></a>
+                    <a href="#" class="text-gray-400 text-3xl hover:text-blue-500"><i class="bx bxl-instagram-alt"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Tolls -->
+            <div class="tab-content-item">
+              <div class="pl-4 pr-4 pb-3 pt-4">
+                <h1 class="text-white font-bold text-3xl text-center pt-4" id="index">Subdomain Scanner!</h1>
+                <p class="text-white font-light text-3md pt-3 pb-3">
+                  Find all Forward DNS (A) records for a domain. Enter a domain name and search for all subdomains associated with that domain. A handy reconnaissance tool when assessing an organisations security.
+                  <a href="https://hackertarget.com/find-dns-host-records/" class="text-white font-bold text-2sm">visit source</a>
+                </p>
+                <hr class="border-gray-600" />
+
+                <!-- search -->
+                <form class="flex items-center pt-4 pb-4">
+                  <label for="simple-search" class="sr-only">Search</label>
+                  <div class="relative w-full">
+                    <div class="flex absolute inset-y-0 left-0 items-center pl-3 pointer-events-none">
+                      <svg aria-hidden="true" class="w-5 h-5 text-gray-500 dark:text-gray-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8zM2 8a6 6 0 1110.89 3.476l4.817 4.817a1 1 0 01-1.414 1.414l-4.816-4.816A6 6 0 012 8z" clip-rule="evenodd"></path>
+                      </svg>
+                    </div>
+                    <input
+                      type="text"
+                      id="myInput"
+                      class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full pl-10 p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+                      placeholder="Domain Name to search"
+                      required=""
+                    />
+                  </div>
+                  <button
+                    type="button"
+                    class="p-2.5 ml-2 text-sm font-medium text-white bg-blue-700 rounded-lg border border-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+                    onclick="getInputValue();"
+                  >
+                    <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path>
+                    </svg>
+                    <span class="sr-only">Search</span>
+                  </button>
+                </form>
+
+                <h3 class="text-white pt-3 font-bold text-2md pb-2">Result :</h3>
+                <div class="p-4 rounded-lg border shadow-md sm:p-2 dark:bg-gray-800 dark:border-gray-700 text-ellipsis overflow-auto">
+                  <div class="h-48 w-48">
+                    <div class="h-24 min-h-full">
+                      <p id="demo" class="mb-5 text-base text-gray-500 sm:text-md dark:text-gray-400"></p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- contact -->
+            <div class="tab-content-item p-4">
+              <div class="mt-6 w-full min-w-sm bg-white rounded-lg border border-gray-200 shadow-md sm:p-6 md:p-8 dark:bg-gray-800 dark:border-gray-700">
+                <form class="space-y-6 p-4" action="#">
+                  <h5 class="text-xl font-medium text-gray-900 dark:text-white">Call Me!!!</h5>
+                  <div>
+                    <label for="email" class="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300">Your email</label>
+                    <input
+                      type="email"
+                      name="email"
+                      id="email"
+                      class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white"
+                      placeholder="name@company.com"
+                      required=""
+                    />
+                  </div>
+                  <div>
+                    <label for="message" class="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300">Your message</label>
+                    <textarea
+                      id="message"
+                      rows="4"
+                      class="block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+                      placeholder="Leave a comment..."
+                    ></textarea>
+                  </div>
+
+                  <button
+                    type="submit"
+                    class="w-full text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+                  >
+                    Submit
+                  </button>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- <div class="border-b border-gray-200 dark:border-gray-700">
+          <ul class="flex flex-wrap -mb-px text-sm font-medium text-center text-gray-500 dark:text-gray-400 justify-center">
+            <li class="mr-2">
+              <a href="#profile.html" class="inline-flex p-4 rounded-t-lg border-b-2 border-transparent hover:text-gray-600 hover:border-gray-300 dark:hover:text-gray-300 group">
+                <svg aria-hidden="true" class="mr-2 w-5 h-5 text-gray-400 group-hover:text-gray-500 dark:text-gray-500 dark:group-hover:text-gray-300" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd" d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-6-3a2 2 0 11-4 0 2 2 0 014 0zm-2 4a5 5 0 00-4.546 2.916A5.986 5.986 0 0010 16a5.986 5.986 0 004.546-2.084A5 5 0 0010 11z" clip-rule="evenodd"></path></svg
+                >Profile
+              </a>
+            </li>
+            <li class="mr-2">
+              <a href="#index.html" class="inline-flex p-4 text-blue-600 rounded-t-lg border-b-2 border-blue-600 active dark:text-blue-500 dark:border-blue-500 group" aria-current="page">
+                <svg aria-hidden="true" class="mr-2 w-5 h-5 text-blue-600 dark:text-blue-500" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    d="M5 3a2 2 0 00-2 2v2a2 2 0 002 2h2a2 2 0 002-2V5a2 2 0 00-2-2H5zM5 11a2 2 0 00-2 2v2a2 2 0 002 2h2a2 2 0 002-2v-2a2 2 0 00-2-2H5zM11 5a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2h-2a2 2 0 01-2-2V5zM11 13a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2h-2a2 2 0 01-2-2v-2z"
+                  ></path></svg
+                >Tools
+              </a>
+            </li>
+            <li class="mr-2">
+              <a href="#" class="inline-flex p-4 rounded-t-lg border-b-2 border-transparent hover:text-gray-600 hover:border-gray-300 dark:hover:text-gray-300 group">
+                <svg aria-hidden="true" class="mr-2 w-5 h-5 text-gray-400 group-hover:text-gray-500 dark:text-gray-500 dark:group-hover:text-gray-300" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M9 2a1 1 0 000 2h2a1 1 0 100-2H9z"></path>
+                  <path
+                    fill-rule="evenodd"
+                    d="M4 5a2 2 0 012-2 3 3 0 003 3h2a3 3 0 003-3 2 2 0 012 2v11a2 2 0 01-2 2H6a2 2 0 01-2-2V5zm3 4a1 1 0 000 2h.01a1 1 0 100-2H7zm3 0a1 1 0 000 2h3a1 1 0 100-2h-3zm-3 4a1 1 0 100 2h.01a1 1 0 100-2H7zm3 0a1 1 0 100 2h3a1 1 0 100-2h-3z"
+                    clip-rule="evenodd"
+                  ></path></svg
+                >Contacts
+              </a>
+            </li>
+          </ul>
+        </div> -->
+
+        <!-- footer -->
+        <footer class="text-center text-white mt-4">
+          <hr class="border-gray-600" />
+          <div class="text-center p-4">
+            © 2022 Copyright:
+            <a class="text-white" href="https://tailwind-elements.com/">Yanuar Eka Susila</a>
+          </div>
+        </footer>
+      </div>
+    </div>
+
+    <script src="https://unpkg.com/boxicons@2.1.2/dist/boxicons.js"></script>
+    <script src="index.js"></script>
+  </body>
+</html>
