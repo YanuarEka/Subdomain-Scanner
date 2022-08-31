@@ -1,7 +1,7 @@
 # Subdomain-Scanner
 
-API :
-``bash 
+*API :
+```bash 
 https://api.hackertarget.com/hostsearch/?q=example.com
 
-``
+```
